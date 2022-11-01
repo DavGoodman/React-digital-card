@@ -1,0 +1,150 @@
+*{
+  margin: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 27, 27);
+
+}
+
+.app{
+  width: 500px;
+  border-radius: 10px;
+  background-color: #1A1B21;
+  color: white;
+}
+
+
+
+.self{
+  margin: 0;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.main{
+  padding: 15px;
+
+}
+
+
+
+.dev{
+  color: orange;
+}
+
+.buttons{
+  display: flex;
+}
+
+.in-btn{
+  background-color: #5093E2;
+  color: white;
+}
+.email-btn{
+  background-color: rgb(238, 238, 238);
+}
+
+.in-btn, .email-btn{
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.info-1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+  height: 50px;
+  background-color: #161619;
+  width: 100%;
+}
+
+.light{
+  background-color: white;
+  color: black;
+}
+
+.f-light{
+  background-color: rgb(215, 215, 215);
+  color: black;
+}
+
+
+
+
+
+.toggler {
+  display: flex;
+  align-items: center;
+}
+
+.toggler p {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.toggler--slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2B283A;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+footer.f-dark .toggler--slider {
+  border-color: white;
+  background-color: #F5F5F5;
+}
+
+.toggler--slider--circle {
+  height: 13px;
+  min-width: 13px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+footer.f-dark .toggler--slider--circle {
+  background-color: black;
+}
+
+.toggler--light {
+  color: #2B283A;
+}
+
+footer.f-dark .toggler--light {
+  color: #918E9B;
+}
+
+.toggler--dark {
+  color: #ffffff;
+  text-shadow: 0 0 4px black;
+}
+
+footer.f-dark .toggler-dark {
+  color: #FFFFFF;
+}
+
+footer.f-dark .toggler--slider {
+  justify-content: flex-start;
+}
